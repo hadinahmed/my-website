@@ -504,8 +504,12 @@
         <div class="modal-content">
             <span class="close-modal" onclick="closeModal('studentModal')">&times;</span>
             <h2>Student Registration</h2>
-            <form onsubmit="handleStudentSubmit(event)">
-                <div class="form-group">
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <button type="submit">Submit</button>
+</form>
+
                     <label>Full Name</label>
                     <input type="text" required>
                 </div>
